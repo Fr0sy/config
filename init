@@ -1,0 +1,15 @@
+#!/bin/sh
+riverctl map normal Mod4 Return spawn foot
+
+riverctl map normal Mod4 Q close
+
+riverctl map normal Mod4+Shift E exit
+
+riverctl map normal Mod4 J focus-view next
+riverctl map normal Mod4 K focus-view previous
+riverctl map normal Mod4+Shift J swap next
+riverctl map normal Mod4+Shift K swap previous
+
+riverctl map normal Mod4 Space zoom
+riverctl default-layout rivertile
+rivertile &
